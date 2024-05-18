@@ -1,0 +1,383 @@
+
+    @charset "utf-8";
+
+
+ body{
+
+
+background-attachment: fixed;
+
+color:white;
+
+font-family: "Inria", serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+height: 100%;
+
+margin: 5px;
+
+padding: 0;
+
+background: #812222;
+
+margin: 0;
+
+padding: 0;
+}
+
+.inria-serif-regular {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+
+p{
+  font-family: Inria Serif;
+text-align: center;
+  font-size:5vmin;
+  color:white;
+}
+
+.amati p{
+font-family: Inria Serif;
+font-weight: 400;
+
+text-align: center;
+font-size: 4vmin;
+
+}
+.amati {
+ text-decoration:none;
+ color:white;
+   padding-top: 5px;
+   text-shadow: 2px 2px 9px #000000;
+   font-weight:bolder;
+   font-size:30px;
+   text-align: center;
+ -webkit-transition: filter 2s; /* Safari */
+  transition: filter 2s;
+}
+.amati img {
+  width: 80%;
+  height: 70vmin;
+  border-radius: 38px 38px 38px 38px;
+  opacity: 0px;
+  -webkit-transition: filter 1s; /* Safari */
+  transition: filter 1s;
+}
+
+.amati img:hover {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+.skauj li {
+    list-style-type: none;
+}
+.skauj {
+      --gap: 40px;
+    --num-cols: 3;
+       display: grid;
+       grid-template-columns: repeat(var(--num-cols), 1fr);
+       grid-auto-rows: var(--row-height);
+       gap: var(--gap);
+       margin: 0;
+       margin: auto;
+       top: 0px;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 5px;
+}
+
+
+
+h2{
+  background:linear-gradient(90deg, rgba(238, 198, 138, 0.6) 0%, rgba(188, 133, 50, 0.6) 100%);
+  border-radius: 25px 25px 25px 25px;
+  opacity: 0px;
+  text-align:center;
+  font-size:2vmax;
+  color: black;
+  font-family: Inria Serif;
+  font-weight: 400;
+  position: relative;
+}
+
+
+h5{
+font-family: Inria Serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 47.96px;
+text-align: center;
+color: #BC8532;
+
+
+}
+h6{
+  font-family: Inria Serif;
+font-size:5vmin;
+margin:0;
+text-align: center;
+color:  #FFEBCC;
+
+}
+h1{
+  font-family: Inria Serif;
+ text-align:center;
+ margin:0;
+ font-size:5vmax;
+}
+#bbox{
+
+ padding:3px;
+ padding-bottom:10%;
+ text-align:center;
+ font-weight: bolder;
+ text-shadow: 5px 5px 3px #000;
+ 
+}
+#bbox img{
+  width: 70%;
+}
+h3{letter-spacing: .2rem;font-weight: 999;
+  font-size:5vmin}
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+ 
+}
+.video-container img {
+    width:100%
+  
+}
+
+
+;
+  }
+.kvizi {
+   padding-top: 5px;
+   text-shadow: 2px 2px 9px #000000;
+   font-weight:bolder;
+   font-size:30px;
+   text-align: center;
+}
+.bbox img{
+  margin:auto;
+  height: auto;
+  width: 70%;
+ }
+
+ .bbox {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    text-align: center;
+}
+.kvizi img {
+  border-radius: 50%;
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+.logini img{
+z-index:-1;
+position:absolute;
+border: 2px;
+opacity: 0px;
+}
+
+#pit, #dat {
+    height: 10%;
+    z-index: -1;
+  height:3vmin; 
+}
+#pit {
+   right:0;
+    margin-right: 10px; /* Add margin to the right of #pit for the gap */
+}
+
+#dat {
+    right:90px;
+    margin-left: 10px; /* Add margin to the left of #dat for the gap */
+}
+
+
+#newpg{
+  .video-container  {
+ 
+background-size: cover;
+ 
+background-attachment: fixed;
+ 
+z-index:-1;
+ 
+position: fixed;
+ 
+object-fit: contain;
+ 
+top: 0;
+ 
+left: 0;
+ 
+width: 100%;
+ 
+height: 100%;
+ 
+overflow: hidden;
+ 
+background-attachment: fixed;
+}
+.ekas h2{
+  color: #FFEBCC;
+
+}
+#video-bg {
+    position: ;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  width: 100%;
+ height:100%;
+   
+    object-fit: cover;
+}
+
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  /* height: 100vh; */ /* Full viewport height */
+}
+.button-container {
+   padding-top:20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 45%;
+  height: 48px;
+}
+.button-container button {
+ cursor: pointer;
+  border-radius: 13px;
+  border: 2px solid #E6C89C;
+  font-family: 'Inria Serif', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.98px;
+  text-align: center;
+  color: #FFEBCC;
+}
+.button-container #p,#pi { background: #CA6767; }
+.button-container #o, #ot{ background: #B54545; }
+.button-container #t, #tr{ background: #932D2D; }
+.button-container #c, #ce{ background: #6A1818; }
+
+#newpg h2{
+  width:70%;
+  margin:0;
+  margin:auto;
+  background: #BD9D6D;
+  color: #FFEBCC;
+}
+.ekas{
+    display:none;
+}
+.jautajums{
+  padding-top: 10px;
+}
+.feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Inria Serif', serif;
+    color: #FFEBCC;
+}
+
+
+.button-container button:hover {
+    background-color: #ffebcc; /* Optional: Add a background color change on hover */
+    color: #000; /* Optional: Change text color on hover */
+}
+
+
+
+#feedback{
+  border-radius: 5vmax;
+  border: 2px solid #E6C89C;
+  font-family: 'Inria Serif', serif;
+  font-size: 5vmax;
+  text-align: center;
+  color: #FFEBCC;
+  background:#861f1f;
+  
+}
+#us.skauj img:hover {
+  -webkit-filter: none; /* Remove the blur effect */
+  filter: none;
+}
+#us.skauj img {
+  width: 80%;
+    height: auto;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+.skauj img{
+  width:80%;
+  height:auto;
+}
+
+
+
+.button-container button {
+  font-size: 3vmax;
+ 
+}
+  #bbox img{
+  width: 90%;
+}
+
+.amati p{
+font-family: Inria Serif;
+font-weight: 400;
+text-align: center;
+font-size:3vmax;
+
+}
+
+  h2#question{
+       border-radius: 0px;
+    width: 100%;
+    font-size:5vmin;
+
+
+  }
+ .skauj {
+      --num-cols: 1;
+     --row-height: ;
+   }
+}

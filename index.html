@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RiddlemeRiga</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="homepage">
+        <div class="video-container">
+            <img src="edit.webp" id="video-bg">
+        </div>
+        <div class="logini">
+            <img src="datoruium.webp" id="dat">
+            <img src="pygirls.webp" id="pit">
+        </div>
+        <div id="bbox"><a><img src="logo.webp" alt="logotips" width="557px"></a></div>
+        <h2> Rīga ir Latvijas galvaspilsēta, kurā dzīvo apmēram 633 000 no valsts 1.87 miljoniem iedzīvotājiem. Tā ir lielākā pilsēta Baltijas valstīs un ir slavena ar savu UNESCO Pasaules mantojumā iekļauto vecpilsētu, neatkārtojamo jūgendstila arhitektūru, vēsturi, kas sniedzas līdz pat 13. gadsimtam un cilvēkiem, kas turpina to pilnveidot līdz pat šodienai. Mūsu projekta mērķis ir parādīt Rīgas daudzpusīgo identitāti, paplašināt cilvēku zināšanas par to, kā arī iemūžināt pilsētas dvēseli pašu veidotajā kodā ar PyGirls kursā attīstītajām prasmēm.</h2>
+        <h5> Pārbaudi savas zināšanas par mūsu pilsētu!</h5>
+
+        <div class="skauj">
+            <li>
+                <a href="#Vesture" class="vestures-link">
+                    <p> Vēsture</p>
+                    <div class="amati"><img src="Vesture.webp" alt="Vaditaji">
+                        <p>Rīgas vēsture ir vēstījums par Rīgas pilsētas attīstību no tās dibināšanas brīža līdz mūsdienām, uz kā visas Latvijas vēsture balstās. Vai spēsi atmodināt savu iekšējo vēsturnieku?</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#ekas" class="ekas-link">
+                    <p> Arhitektūra</p>
+                    <div class="amati"><img src="ekas.webp" alt="Vaditaji">
+                        <p>Jūgendstila arhitektūra Rīgā veido aptuveni vienu trešdaļu no visām Rīgas centra ēkām, padarot Latvijas galvaspilsētu par pilsētu ar visaugstāko jūgendstila arhitektūras koncentrāciju pasaulē. Cik daudz tu par to zini?</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#Kultura" class="kulturas-link">
+                    <p> Kultūra</p>
+                    <div class="amati"><img src="Kultura.webp" alt="Vaditaji">
+                        <p>Katrai valstij ir tai raksturīgs kultūras, simbolu un paražu kopums, kas padara to unikālu. Latvija, protams, nav izņēmums. Bagāta kultūra un senas tradīcijas ir tas, kas ir vijies cauri laikiem un kas lielā mērā veido to, kāda Latvija ir šodien.</p>
+                    </div>
+                </a>
+            </li>
+        </div>
+
+        <h1> PAR MUMS!</h1>
+        <div class="parmums">
+            <p> apraksts par mums un pygirls</p>
+           
+        </div>
+
+        <div class="skauj" id="us">
+            <div class="amati">
+            	<a href="https://www.linkedin.com/in/jana-ozolniece-387884241/">
+                <img src="janchuks.webp" alt="Vaditaji">
+             </a>
+                <h3>Jana<br> Ir jānokrīt.. lai pieceltos!
+                </h3>
+            </div>
+            <div class="amati">
+
+            	<a href="https://www.linkedin.com/in/martaindriksone/">
+                <img src="Seraphic.webp" alt="Vaditaji">
+             </a>
+                <h3>Marta<br> Izcilākie zinātnieki ir arī mākslinieki. - Alberts Einšteins</h3>
+            </div>
+            <div class="amati">
+                <img src="smiley.png " id ="sep" alt="Vaditaji">
+                <h3>Sandija<br> Svini mazās uzvaras.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="ekas" id="newpg" style="display: none;">
+        <h6 id="ekas-counter">1/10</h6>
+        <div id="loading-bar"></div>
+        <div class="jautajums">
+            <h2 id="question">Ķīpsalas koka māju atjaunošana aizsākās 1997.gadā kādas arhitektes ierosmē, <br> atjaunojot gan uz vietas esošās ēkas, <br> gan papildinot kolekciju ar ēkām no malas.  <br> Kā sauc šo arhitekti?</h2>
+        </div>
+        <div class="centered">
+            <div class="button-container">
+                <button id="p" class="answer-button">Aiga Gaile</button>
+                <button id="o" class="answer-button">Benedikts kumberbačš</button>
+                <button id="t" class="answer-button">Carolina stonia</button>
+                <button id="c" class="answer-button">Delifo le ruso</button>
+            </div>
+        </div>
+        <div class="video-container">
+            <img src="Arhitektura.webp" id="video-bg">
+        </div>
+        <p id="feedback" class="feedback"></p>
+    </div>
+<div class="kulturas" id="newpg" style="display: none;">
+        <h6 id="kulturas-counter">1/10</h6>
+        <div id="loading-bar"></div>
+        <div class="jautajums">
+            <h2 id="question">Kura Rīgas daļa ir iekļauta UNESCO Pasaules mantojuma sarakstā?</h2>
+        </div>
+        <div class="centered">
+            <div class="button-container">
+                <button id="p" class="answer-button">Vecrīga</button>
+                <button id="o" class="answer-button">Āgenskalns</button>
+                <button id="t" class="answer-button">Ķīpsala</button>
+                <button id="c" class="answer-button">Kaut kas te</button>
+            </div>
+        </div>
+        <div class="video-container">
+            <img src="Kulturabg.webp" id="video-bg">
+        </div>
+        <p id="feedback" class="feedback"></p>
+    </div>
+
+<div class="vesture" id="newpg" style="display: none;">
+        <h6 id="vestures-counter">1/10</h6>
+        <div id="loading-bar"></div>
+        <div class="jautajums">
+            <h2 id="question">Vesture?</h2>
+        </div>
+        <div class="centered">
+            <div class="button-container">
+                <button id="p" class="answer-button">ye</button>
+                <button id="o" class="answer-button">yeee</button>
+                <button id="t" class="answer-button">na</button>
+                <button id="c" class="answer-button">no kas te</button>
+            </div>
+        </div>
+        <div class="video-container">
+            <img src="Vesturebg.webp" id="video-bg">
+        </div>
+        <p id="feedback" class="feedback"></p>
+    </div>
+
+
+
+
+
+    	
+    <!-- Quiz logic for Ēkas section -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Quiz logic for Ēkas section
+        	const ekasCounter = document.getElementById('ekas-counter');
+
+            const buttons = document.querySelectorAll('.ekas .answer-button');
+            const feedback = document.querySelector('.ekas .feedback');
+            const question = document.querySelector('.ekas #question');
+            let currentQuestion = 0;
+            let points = 0;
+
+            // Your quiz data for Ēkas section
+           const quizData = [
+        {
+            question: 'Ķīpsalas koka māju atjaunošana aizsākās 1997.gadā kādas arhitektes ierosmē, atjaunojot gan uz vietas esošās ēkas, gan papildinot kolekciju ar ēkām no malas. Kā sauc šo arhitekti?',
+            answers: ['Aiga Gaile', 'Benedikts kumberbačš', 'Carolina stonia', 'Delifo le ruso'],
+            correct: 'p'
+        },
+        {
+            question: 'Rīga tiek uzskatīta par jūgenstila meku, kuri trīs arhitekti tiek uzskatīti par šī stila vadošajiem līderiem Latvijas vēsturē?',
+            answers: ['Eižens Laube, Konstantīns Pēkšēns un Mihails Eizenšteins', 'Ernests Štālbergs, Kārlis Zāle, Uldis Pīle', 'Vilhelms Purvītis, Jānis Rozentāls, Maija Tabaka', 'Baumaņu Kārlis, Emīls Dārziņš, Jāzeps Vītols'],
+            correct: 'p'
+        },
+        {
+            question: 'Latvijas Nacionālā bibliotēka jeb Gaismas pils tika atvērta 2014. gadā, tomēr kurā gadā tika pieņemts lēmums par ēkas būvniecību?',
+            answers: ['1928. g.', '2008. g.', '1988. g.', '2000. g.'],
+            correct: 't'
+        },
+        {
+            question: 'No kura populāra latviešu dramaturga lugas radās iedvesma Gaismas pils unikālajai fasādei?',
+            answers: ['Raiņa', 'Rūdolfa Blaumaņa', 'Kārļa Baumaņa', 'Kārļa Skalbes'],
+
+            correct: 'p'
+        },
+        {
+            question: "Kā sauc Latvijas augstāko būvi, kura ir atrodama Rīgā?",
+    answers: ['Zinātņu akadēmija', 'Zaķusalas televīzijas tornis', 'Raddison Blu Hotel Latvija', 'Rīgas Svētā Pētera baznīca'],
+            correct: 'o'
+        },
+        {
+            question: "Kā vēl dēvē labi atpazīstamo Swedbank Centrālo ēku?",
+    answers: ['Lielais Dzintars', 'Otrā Gaismas pils', 'Saules akmens', 'Trīs brāļi'],
+            correct: 't'
+        },
+        {
+             question: "‘’Trīs brāļi’’ ir triju ēku grupa Rīgā, kas izcili ataino dzīvojamo ēku izskata atīstību Latvijā, jo katrs ‘’brālis’’ tikts celts citā laika periodā atškirīgā stilā. Kādi ir šie trīs arhitektūras stili?",
+    answers: ['Renesanse, manierisms, baroks', 'Gotiskais, jūgendstils, klasicisms', 'Rokoko, renesanse, gotiskais', 'Baroks, ampīrs, romānika'],
+            correct: 'p'
+        },
+        {
+            question: "Viens no Latvijas iespaidīgākajiem simboliem - Brīvības piemineklis - ir atrodams starp Rīgas centru un Vecrīgu. Ko simbolizē trīs zvaigznes, kuras pārrauga Rīgu Mildas rokās?",
+    answers: ['Vidzeme, Zemgale, Latgale', 'Latgale, Kurzeme, Zemgale', 'Kurzeme, Vidzeme, Latgale', 'Kurzeme, Latgale, Sēlija'],
+            correct: 't'
+        },
+        {
+             question: "Kā saucās pirmais tilts Rīgā pār Daugavu, kuru uzcēla 1700. gadā?",
+    answers: ['Nirstošais tilts', 'Slīkstošais tilts', 'Bīskapa Alberta tilts', 'Peldošais tilts'],
+            correct: 'c'
+        },
+        {
+            question: "Mežaparka Lielās estrādes rekonstrukcija - unikāla akustiska dzelzsbetona būve -2022. gadā saņēma Starptautisko arhitektūras balvu kategorijā Publiskā telpa. Kāds ir šīs konstrukcijas nosaukums?",
+    answers: ['Dziesmu kalns', 'Sudraba rota', 'Sidraba birzs', 'Austras koks'],
+            correct: 't'
+        }
+
+    ];
+
+          function loadQuestion() {
+        feedback.style.display = 'none';
+        const currentQuizData = quizData[currentQuestion];
+        question.textContent = currentQuizData.question;
+        buttons.forEach((button, index) => {
+            button.textContent = currentQuizData.answers[index];
+            button.id = ['p', 'o', 't', 'c'][index];
+        });
+        ekasCounter.textContent = `${currentQuestion + 1}/${quizData.length}`;
+    }
+
+    function handleButtonClick(button) {
+        if (button.id === quizData[currentQuestion].correct) {
+            points++;
+        }
+        currentQuestion++;
+        if (currentQuestion < quizData.length) {
+            setTimeout(() => {
+                feedback.textContent = '';
+                loadQuestion();
+            }, 0);
+        } else {
+            feedback.style.display = 'block';
+            feedback.textContent = `Tests pabeigts! Tavs rezulāts:  ${points}`;
+
+ buttons.forEach(btn => btn.style.display = 'none');
+            question.style.display = 'none';
+            ekasCounter.style.display = 'none';
+
+            
+        }
+    }
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => handleButtonClick(button));
+    });
+
+    loadQuestion();
+});
+    </script>
+
+    <!-- Quiz logic for Kultūra section -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Quiz logic for Kultūra section
+        		const kulturasCounter = document.getElementById('kulturas-counter');
+
+            const buttons = document.querySelectorAll('.kulturas .answer-button');
+            const feedback = document.querySelector('.kulturas .feedback');
+            const question = document.querySelector('.kulturas #question');
+            let currentQuestion = 0;
+            let points = 0;
+
+            // Your quiz data for Kultūra section
+            const quizData = [
+         {
+        question: 'Kura Rīgas daļa ir iekļauta UNESCO Pasaules mantojuma sarakstā?',
+        answers: ['Vecrīga', 'Āgenskalns', 'Ķīpsala', 'Mežaparks'],
+        correct: 'p'
+    },
+    {
+        question: 'Eiropas mantojuma zīme tiek piešķirta objektiem, kuri godina un simbolizē Eiropas ideālus, vēsturi. Kurš ir viens no diviem Latvijas objektiem (otrais Turaidas pils), kas nopelnījis šo apbalvojumu?',
+        answers: ['Rīgas Svētā Pētera baznīca', '‘’Trīs brāļi’’', 'Melngalvju nams', 'Rīgas Centrāltirgus'],
+        correct: 'o'
+    },
+    {
+        question: 'Ar kuru pilsētu Rīga dalīja Eiropas kultūras pilsētas titulu 2014. gadā?',
+        answers: ['Košici (Slovākija)', 'Lisabonu (Portugāle)', 'Monsu (Belģiju)', 'Ūmeo (Zviedrija)'],
+        correct: 'c'
+    },
+    {
+        question: 'Kurš populārs latviešu dzejnieks tiek dēvēts par ‘’Rīgas dzejnieku’’, tās biežās apdzejošanas dēļ?',
+        answers: ['Knuts Skujenieks', 'Andrejs Upīts', 'Aleksandrs Čaks', 'Eduards Veidenbaums'],
+        correct: 't'
+    },
+    {
+        question: 'Ik piecus gadus pār Latviju pāršalc Vispārējo latviešu Dziesmu un Deju svētku izraisīts degsmes vilnis. Kas attēlots uz Līgo karoga - viena no pasākuma zīmīgākajiem simboliem?',
+        answers: ['Māra', 'Vaidelotis', 'Auseklis', 'Aušauts'],
+        correct: 'o'
+    },
+    {
+        question: 'Ikgadējais festivāls ‘’Staro Rīga’’ ļauj Rīgas iedzīvotājiem apskatīt satriecošus gaismas mākslas objektus. Ar kuriem valsts svētkiem sakrīt pasākuma norises laiks?',
+        answers: ['Līgo dienu', 'Latvijas Republikas Neatkarības atjaunošanas dienu', 'Lāčplēša dienu', 'Latvijas Republikas proklamēšanas dienu'],
+        correct: 'c'
+    },
+    {
+        question: 'Kur 2023. gadā RTU studenti pārspēja līdzšinējo Ginesa rekordu?',
+        answers: ['Lielākā prāta vētra pasaulē', 'Skaļākais pūļa kliedziens', 'Garākā cilvēku galvas masāžu ķēde', 'Visvairāk cilvēku, kuri vienlaicīgi palecas'],
+        correct: 'p'
+    },
+    {
+        question: 'Kurš no šiem ievērojamajiem komponistiem kādu laiku strādāja un uzstājās Rīgā?',
+        answers: ['Volfgangs Amadejs Mocarts', 'Nikolo Paganīni', 'Edvards Grīgs', 'Rihards Vāgners'],
+        correct: 'c'
+    },
+    {
+        question: 'Kā sākotnēji sauca Laimas pulksteni - vienu no atpazīstamākajiem objektiem visā Rīgā?',
+        answers: ['Miera pulkstenis', 'Lielais pulkstenis', 'Gaiļa aste', 'Rīgas pulkstenis'],
+        correct: 'o'
+    },
+    {
+        question: 'Kura Rīgas izcelsmes grupa 2016. gadā saņēma European Border Breakers Award balvu par panākumiem ārvalstīs?',
+        answers: ['Carnival Youth', 'Sudden Lights', 'Ziedu Vija', 'Citi Zēni'],
+        correct: 'p'
+    }
+
+
+
+
+        ];
+
+           function loadQuestion() {
+      	feedback.style.display = 'none';
+        const currentQuizData = quizData[currentQuestion];
+        question.textContent = currentQuizData.question;
+        buttons.forEach((button, index) => {
+            button.textContent = currentQuizData.answers[index];
+            button.id = ['p', 'o', 't', 'c'][index];
+        });
+        kulturasCounter.textContent = (currentQuestion + 1) + '/' + quizData.length; // Update counter
+    }
+                function handleButtonClick(button) {
+            if (button.id === quizData[currentQuestion].correct) {
+                points++; // Increment points only if the answer is correct
+            }
+            currentQuestion++;
+            if (currentQuestion < quizData.length) {
+                setTimeout(() => {
+                    feedback.textContent = '';
+                    loadQuestion();
+                }, 0);
+            } else {
+                feedback.style.display = 'block';
+                feedback.textContent = `Tests pabeigts! Tavs rezulāts:  ${points}`;
+ buttons.forEach(btn => btn.style.display = 'none');
+            question.style.display = 'none';
+            kulturasCounter.style.display = 'none';
+            }
+        }
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => handleButtonClick(button));
+        });
+
+        loadQuestion();
+    });
+ 
+        document.addEventListener('DOMContentLoaded', function() {
+            // Quiz logic for Vestures section
+        	const vesturesCounter = document.getElementById('vestures-counter');
+
+            const buttons = document.querySelectorAll('.vesture .answer-button');
+            const feedback = document.querySelector('.vesture .feedback');
+            const question = document.querySelector('.vesture #question');
+            let currentQuestion = 0;
+            let points = 0;
+
+            // Your quiz data for Vestures section
+           const quizData = [
+        {
+        question: 'Kurā gadā Rīga tika dibināta?',
+        answers: ['1918.g.', '1101.g.', '1301. g.', '1201. g.'],
+        correct: 'c'
+    },
+    {
+        question: 'Kad Rīga oficiāli ieguva Latvijas galvaspilsētas statusu?',
+        answers: ['1201. g.', '1931. g.', '1918. g.', '1990. g.'],
+        correct: 'o'
+    },
+    {
+        question: 'Lai gan precīze izcelsme vārdam ‘’Rīga’’ nav zināma, tiek pieņemts, ka tā ir atvasināta no Livoniešu ‘’ringa’’. Ko varētu nozīmēt šis vārds?',
+        answers: ['Loks, līkumaina upe', 'Maizes klaips', 'Siena guba', 'Zeltīta atslēga'],
+        correct: 'p'
+    },
+    {
+        question: 'Senāk Rīgā bija daudz smilšu kāpu. Kas mūsdienās ir augstākais Rīgas dabiskais paugurs?',
+        answers: ['Kubes kalns', 'Dzegužkalns', 'Torņakalns', 'Grīziņkalns'],
+        correct: 'o'
+    },
+    {
+        question: 'Kurš ir vecākais Rīgas publiskais parks?',
+        answers: ['Vērmanes dārzs', 'Bastejkalna parks', 'Viestura dārzs', 'Kronvalda parks'],
+        correct: 't'
+    },
+    {
+        question: 'Kā sauca Dailes teātra dibinātāju?',
+        answers: ['Pēteris Pētersons', 'Ausma Kantāne', 'Eduards Smiļģis', 'Mihails Gruzdovs'],
+        correct: 't'
+    },
+    {
+        question: 'Kurš ir vecākais Rīgā esošais tilts?',
+        answers: ['Dzelzceļa tilts', 'Akmens tilts', 'Vanšu tilts', 'Dienvidu tilts'],
+        correct: 'p'
+    },
+    {
+        question: 'Kāds bija sākotnējais Rīgas Melnā balzama pielietojums pirms tas kļuva par tradicionālu Latvijas alkoholisko dzērienu?',
+        answers: ['Anestēzija', 'Zāles', 'Ēdiena piedeva', 'Smaržas'],
+        correct: 'o'
+    },
+    {
+        question: 'Kurš no minētajiem nav vēsturiski Rīgas simbols?',
+        answers: ['Zelta gailis', 'Melna atslēga', 'Zelta kronis', 'Dzintars'],
+        correct: 'c'
+    },
+    {
+        question: 'Kā sauca pirmo šokolādes un kafijas fabriku Latvijā, kas agrāk bija viens no atpazīstamākajiem saldumu ražotājiem visā Krievijas impērijā?',
+        answers: ['Lāči', 'Pūre', 'Laima', 'Rīgas šokolāde'],
+        correct: 't'
+    }
+
+    ];
+
+        function loadQuestion() {
+        feedback.style.display = 'none';
+        const currentQuizData = quizData[currentQuestion];
+        question.textContent = currentQuizData.question;
+        buttons.forEach((button, index) => {
+            button.textContent = currentQuizData.answers[index];
+            button.id = ['p', 'o', 't', 'c'][index];
+        });
+        vesturesCounter.textContent = `${currentQuestion + 1}/${quizData.length}`;
+    }
+
+    function handleButtonClick(button) {
+        if (button.id === quizData[currentQuestion].correct) {
+            points++;
+        }
+        currentQuestion++;
+        if (currentQuestion < quizData.length) {
+            setTimeout(() => {
+                feedback.textContent = '';
+                loadQuestion();
+            }, 0);
+        } else {
+            feedback.style.display = 'block';
+       feedback.textContent = `Tests pabeigts! Tavs rezulāts:  ${points}`;
+
+ buttons.forEach(btn => btn.style.display = 'none');
+            question.style.display = 'none';
+            vesturesCounter.style.display = 'none';
+
+
+        }
+    }
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => handleButtonClick(button));
+    });
+
+    loadQuestion();
+});
+   
+    </script>
+
+
+    <!-- JavaScript for navigating between sections -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the Ēkas link
+            var ekasLink = document.querySelector('.ekas-link');
+            var ekasSection = document.querySelector('.ekas');
+
+            // Add click event listener to the Ēkas link
+            ekasLink.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent the default link behavior
+
+                // Show the Ēkas section and hide others
+                document.querySelector('.homepage').style.display = 'none';
+                ekasSection.style.display = 'block';
+            });
+
+
+             var vesturesLink = document.querySelector('.vestures-link');
+            var vesturesSection = document.querySelector('.vesture');
+
+            // Add click event listener to the Ēkas link
+            vesturesLink.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent the default link behavior
+
+                // Show the Ēkas section and hide others
+                document.querySelector('.homepage').style.display = 'none';
+                vesturesSection.style.display = 'block';
+            });
+
+
+
+
+            // Get the Kultūra link
+            var kulturaLink = document.querySelector('.kulturas-link');
+            var kulturaSection = document.querySelector('.kulturas');
+
+            // Add click event listener to the Kultūra link
+            kulturaLink.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent the default link behavior
+
+                // Show the Kultūra section and hide others
+                document.querySelector('.homepage').style.display = 'none';
+                kulturaSection.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+    </script>
+</body>
+
+</html>
